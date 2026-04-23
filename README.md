@@ -14,9 +14,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 2.0h | 4.6h | 8.3h | 8.3h |
+| User AI session hours | 1.4h | 4.6h | 8.3h | 8.3h |
 | AI worker hours | 0.0h | 0.7h | 5.8h | 5.8h |
-| AI concurrency hours | 3.4h | 11.3h | 25.3h | 25.3h |
+| AI concurrency hours | 2.4h | 11.3h | 25.3h | 25.3h |
 | Interactive sessions | 1 | 5 | 28 | 28 |
 | Worker sessions | 0 | 6 | 120 | 120 |
 
@@ -45,10 +45,10 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 5,912 | 13K | 2.4M | 527.3M | $976.47 | $7,119.16 | $0.00 |
-| claude-opus-4-7 | 814 | 973 | 541K | 108.3M | $203.15 | $1,462.66 | $0.00 |
+| claude-opus-4-7 | 815 | 973 | 541K | 108.3M | $203.15 | $1,462.66 | $0.00 |
 | gpt-5.4 | 279 | 2.8M | 66K | 14.1M | $16.66 | $26.45 | $52.65 |
 | claude-sonnet-4-6 | 340 | 348 | 166K | 20.1M | $8.54 | $54.44 | $34.21 |
-| **Total** | **7,345** | **2.8M** | **3.2M** | **669.9M** | **$1,204.82** | **$8,662.71** | **$86.86** |
+| **Total** | **7,346** | **2.8M** | **3.2M** | **669.9M** | **$1,204.82** | **$8,662.71** | **$86.86** |
 
 _735.8M total tokens processed. 91.1% cache hit rate._
 
@@ -72,5 +72,5 @@ _Model savings are modest because ~91.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-23 22:14 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-23 23:15 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
