@@ -14,9 +14,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 1.4h | 1.4h | 1.4h |
+| User AI session hours | 0.0h | 1.2h | 1.4h | 1.4h |
 | AI worker hours | 0.0h | 0.0h | 0.1h | 0.1h |
-| AI concurrency hours | 0.0h | 3.6h | 4.0h | 4.0h |
+| AI concurrency hours | 0.0h | 1.7h | 4.0h | 4.0h |
 | Interactive sessions | 0 | 5 | 7 | 7 |
 | Worker sessions | 0 | 0 | 2 | 2 |
 
@@ -29,14 +29,14 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-7 | 3,341 | 4K | 2.9M | 438.5M | $1,273.10 | $5,921.07 | $0.00 |
-| claude-opus-4-6 | 689 | 788 | 286K | 50.7M | $187.72 | $685.74 | $0.00 |
+| claude-opus-4-6 | 632 | 721 | 266K | 49.0M | $176.04 | $661.82 | $0.00 |
 | claude-sonnet-4-6 | 250 | 267 | 136K | 14.0M | $10.56 | $37.95 | $25.08 |
 | gpt-5.5 | 25 | 151K | 3K | 665K | $0.62 | $1.80 | $2.82 |
-| **Total** | **4,305** | **157K** | **3.3M** | **504.1M** | **$1,472.00** | **$6,646.55** | **$27.90** |
+| **Total** | **4,248** | **157K** | **3.3M** | **502.3M** | **$1,460.32** | **$6,622.63** | **$27.90** |
 
-_534.7M total tokens processed. 94.3% cache hit rate._
+_532.5M total tokens processed. 94.3% cache hit rate._
 
-_$6,674.45 total saved ($6,646.55 caching + $27.90 model routing vs all-Opus)._
+_$6,650.53 total saved ($6,622.63 caching + $27.90 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.3% of tokens are cache reads, where price differences between models are small._
 
@@ -73,5 +73,5 @@ _Model savings are modest because ~92.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-12 02:26 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-12 12:48 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
