@@ -16,8 +16,8 @@
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 0.3h | 1.7h | 1.7h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 0.6h | 4.0h | 4.0h |
-| Interactive sessions | 0 | 2 | 6 | 6 |
+| AI concurrency hours | 0.0h | 0.4h | 4.0h | 4.0h |
+| Interactive sessions | 0 | 1 | 6 | 6 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -29,14 +29,14 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-7 | 3,361 | 4K | 2.9M | 439.9M | $1,282.24 | $5,939.26 | $0.00 |
-| claude-opus-4-6 | 307 | 344 | 169K | 38.1M | $111.74 | $515.28 | $0.00 |
+| claude-opus-4-6 | 302 | 338 | 167K | 38.0M | $110.66 | $513.31 | $0.00 |
 | claude-sonnet-4-6 | 250 | 267 | 136K | 14.0M | $10.56 | $37.95 | $25.08 |
 | gpt-5.5 | 25 | 151K | 3K | 665K | $0.62 | $1.80 | $2.82 |
-| **Total** | **3,943** | **156K** | **3.2M** | **492.8M** | **$1,405.16** | **$6,494.28** | **$27.90** |
+| **Total** | **3,938** | **156K** | **3.2M** | **492.6M** | **$1,404.08** | **$6,492.31** | **$27.90** |
 
-_521.0M total tokens processed. 94.6% cache hit rate._
+_520.8M total tokens processed. 94.6% cache hit rate._
 
-_$6,522.19 total saved ($6,494.28 caching + $27.90 model routing vs all-Opus)._
+_$6,520.21 total saved ($6,492.31 caching + $27.90 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.6% of tokens are cache reads, where price differences between models are small._
 
@@ -73,5 +73,5 @@ _Model savings are modest because ~92.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-15 13:39 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-15 16:40 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
