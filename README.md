@@ -17,7 +17,7 @@
 | User AI session hours | 0.0h | 2.7h | 3.0h | 3.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 4.4h | 4.9h | 4.9h |
-| Interactive sessions | 0 | 4 | 6 | 6 |
+| Interactive sessions | 0 | 3 | 6 | 6 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -28,17 +28,17 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 2,906 | 3K | 2.7M | 374.2M | $1,157.29 | $5,051.92 | $0.00 |
+| claude-opus-4-7 | 2,797 | 3K | 2.7M | 357.0M | $1,118.45 | $4,819.85 | $0.00 |
 | claude-opus-4-6 | 46 | 52 | 30K | 4.2M | $15.34 | $57.55 | $0.00 |
 | claude-sonnet-4-6 | 154 | 165 | 87K | 8.7M | $6.81 | $23.55 | $15.70 |
 | gpt-5.5 | 25 | 151K | 3K | 665K | $0.62 | $1.80 | $2.82 |
-| **Total** | **3,131** | **156K** | **2.8M** | **387.8M** | **$1,180.06** | **$5,134.81** | **$18.51** |
+| **Total** | **3,022** | **155K** | **2.8M** | **370.6M** | **$1,141.22** | **$4,902.74** | **$18.51** |
 
-_412.7M total tokens processed. 94% cache hit rate._
+_395.0M total tokens processed. 93.8% cache hit rate._
 
-_$5,153.33 total saved ($5,134.81 caching + $18.51 model routing vs all-Opus)._
+_$4,921.25 total saved ($4,902.74 caching + $18.51 model routing vs all-Opus)._
 
-_Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -73,5 +73,5 @@ _Model savings are modest because ~92% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-23 00:51 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-23 01:51 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
