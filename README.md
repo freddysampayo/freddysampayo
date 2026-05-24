@@ -14,10 +14,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 2.7h | 3.0h | 3.0h |
+| User AI session hours | 0.0h | 2.5h | 3.0h | 3.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 4.4h | 4.9h | 4.9h |
-| Interactive sessions | 0 | 3 | 6 | 6 |
+| AI concurrency hours | 0.0h | 3.9h | 4.9h | 4.9h |
+| Interactive sessions | 0 | 2 | 6 | 6 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -28,15 +28,15 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 2,036 | 2K | 1.8M | 272.5M | $829.52 | $3,679.93 | $0.00 |
+| claude-opus-4-7 | 2,034 | 2K | 1.8M | 272.4M | $825.56 | $3,677.53 | $0.00 |
 | claude-opus-4-6 | 46 | 52 | 30K | 4.2M | $15.34 | $57.55 | $0.00 |
 | claude-sonnet-4-6 | 81 | 87 | 52K | 4.8M | $3.87 | $13.17 | $8.99 |
 | gpt-5.5 | 25 | 151K | 3K | 665K | $0.62 | $1.80 | $2.82 |
-| **Total** | **2,188** | **154K** | **1.9M** | **282.3M** | **$849.35** | **$3,752.45** | **$11.81** |
+| **Total** | **2,186** | **154K** | **1.9M** | **282.2M** | **$845.39** | **$3,750.04** | **$11.81** |
 
-_300.2M total tokens processed. 94.1% cache hit rate._
+_299.8M total tokens processed. 94.1% cache hit rate._
 
-_$3,764.26 total saved ($3,752.45 caching + $11.81 model routing vs all-Opus)._
+_$3,761.85 total saved ($3,750.04 caching + $11.81 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.1% of tokens are cache reads, where price differences between models are small._
 
@@ -73,5 +73,5 @@ _Model savings are modest because ~92% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-24 17:57 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-24 20:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
