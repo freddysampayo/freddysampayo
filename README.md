@@ -14,11 +14,11 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 0.2h | 14.8h | 14.8h |
-| AI worker hours | 0.0h | 0.1h | 0.1h | 0.1h |
-| AI concurrency hours | 0.0h | 0.4h | 23.8h | 23.8h |
-| Interactive sessions | 0 | 1 | 17 | 17 |
-| Worker sessions | 0 | 1 | 1 | 1 |
+| User AI session hours | 0.0h | 0.2h | 13.1h | 13.1h |
+| AI worker hours | 0.0h | 0.0h | 0.1h | 0.1h |
+| AI concurrency hours | 0.0h | 0.3h | 20.7h | 20.7h |
+| Interactive sessions | 0 | 1 | 10 | 10 |
+| Worker sessions | 0 | 0 | 1 | 1 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -28,13 +28,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 1,201 | 2K | 2.5M | 123.5M | $715.43 | $1,667.76 | $0.00 |
+| claude-opus-4-7 | 1,200 | 2K | 2.5M | 123.5M | $713.06 | $1,667.76 | $0.00 |
 | gpt-5.5 | 98 | 587K | 22K | 6.3M | $3.48 | $17.04 | $15.95 |
 | claude-opus-4-6 | 1 | 3 | 128 | 0 | $0.49 | $0.00 | $0.00 |
 | z-ai/glm-5.1 | 2 | 40K | 3K | 0 | $0.17 | $0.00 | $0.67 |
-| **Total** | **1,302** | **630K** | **2.6M** | **129.8M** | **$719.57** | **$1,684.81** | **$16.62** |
+| **Total** | **1,301** | **630K** | **2.6M** | **129.8M** | **$717.20** | **$1,684.81** | **$16.62** |
 
-_151.0M total tokens processed. 86% cache hit rate._
+_150.9M total tokens processed. 86% cache hit rate._
 
 _$1,701.42 total saved ($1,684.81 caching + $16.62 model routing vs all-Opus)._
 
@@ -74,5 +74,5 @@ _Model savings are modest because ~91.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-11 15:37 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-11 18:27 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
