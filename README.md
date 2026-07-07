@@ -14,11 +14,11 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 0.9h | 5.1h | 83.1h |
-| AI worker hours | 0.0h | 0.5h | 4.4h | 12.9h |
-| AI concurrency hours | 0.0h | 1.7h | 13.5h | 153.4h |
+| User AI session hours | 0.0h | 0.8h | 5.1h | 83.1h |
+| AI worker hours | 0.0h | 0.4h | 4.4h | 12.9h |
+| AI concurrency hours | 0.0h | 1.3h | 13.5h | 153.4h |
 | Interactive sessions | 0 | 1 | 10 | 569 |
-| Worker sessions | 0 | 10 | 109 | 212 |
+| Worker sessions | 1 | 11 | 110 | 212 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,9 +31,9 @@ _AI session 365-day totals cover 112 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-8 | 256 | 472 | 538K | 31.0M | $148.93 | $418.72 | $0.00 |
-| gpt-5.5 | 704 | 3.1M | 93K | 16.7M | $14.05 | $45.10 | $63.72 |
+| gpt-5.5 | 705 | 3.1M | 93K | 16.7M | $14.05 | $45.10 | $63.72 |
 | claude-opus-4-7 | 37 | 96 | 27K | 1.5M | $11.40 | $21.58 | $0.00 |
-| **Total** | **997** | **3.1M** | **659K** | **49.3M** | **$174.38** | **$485.40** | **$63.72** |
+| **Total** | **998** | **3.1M** | **659K** | **49.3M** | **$174.38** | **$485.40** | **$63.72** |
 
 _56.8M total tokens processed. 86.8% cache hit rate._
 
@@ -49,10 +49,10 @@ _Model savings are modest because ~86.8% of tokens are cache reads, where price 
 | claude-opus-4-6 | 4,504 | 11K | 2.4M | 468.8M | $1,770.37 | $6,329.98 | $0.00 |
 | claude-opus-4-8 | 256 | 472 | 538K | 31.0M | $148.93 | $418.72 | $0.00 |
 | claude-sonnet-4-6 | 482 | 508 | 251K | 28.5M | $18.75 | $77.18 | $49.43 |
-| gpt-5.5 | 827 | 3.9M | 119K | 23.6M | $18.15 | $63.94 | $82.49 |
+| gpt-5.5 | 828 | 3.9M | 119K | 23.6M | $18.15 | $63.94 | $82.49 |
 | gpt-5.4 | 53 | 458K | 14K | 3.3M | $2.26 | $6.20 | $9.55 |
 | z-ai/glm-5.1 | 2 | 40K | 3K | 0 | $0.17 | $0.00 | $0.67 |
-| **Total** | **10,722** | **4.4M** | **8.9M** | **1,120.5M** | **$3,965.33** | **$14,524.62** | **$142.13** |
+| **Total** | **10,723** | **4.4M** | **8.9M** | **1,120.5M** | **$3,965.33** | **$14,524.62** | **$142.13** |
 
 _1,307.5M total tokens processed. 91.3% cache hit rate._
 
@@ -76,5 +76,5 @@ _Model savings are modest because ~91.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-07 17:09 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-07 18:09 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
