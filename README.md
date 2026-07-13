@@ -13,7 +13,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | unavailable | unavailable | unavailable | unavailable |
+| Screen time (Mac) | 14.4h | 84.3h | 84.3h | /Users/freddysampayo4215h* |
 | Interactive human attention | 1.9h | 9.9h | 14.9h | 80.5h |
 | Interactive AI generation | 1.1h | 13.7h | 17.7h | 72.6h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -22,7 +22,7 @@
 | Interactive sessions | 3 | 10 | 20 | 1,545 |
 | Worker sessions | 0 | 119 | 228 | 490 |
 
-_Screen time from macos-pmset-display-assertions; collection status: unavailable._
+_Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
@@ -80,5 +80,5 @@ _Model savings are modest because ~90.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-13 18:26 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-13 22:28 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
