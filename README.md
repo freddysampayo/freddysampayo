@@ -14,13 +14,13 @@
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | unavailable | unavailable | unavailable | unavailable |
-| Interactive human attention | 1.6h | 5.8h | 19.6h | 89.1h |
-| Interactive AI generation | 1.0h | 11.0h | 29.6h | 88.0h |
+| Interactive human attention | 0.0h | 1.8h | 19.6h | 89.1h |
+| Interactive AI generation | 0.0h | 2.5h | 29.6h | 88.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
-| Worker/headless AI generation | 0.0h | 14.8h | 25.6h | 43.3h |
-| Additive observed work | 2.6h | 31.5h | 74.8h | 220.4h |
-| Interactive sessions | 2 | 8 | 19 | 1,553 |
-| Worker sessions | 0 | 47 | 200 | 537 |
+| Worker/headless AI generation | 0.0h | 0.0h | 25.2h | 43.3h |
+| Additive observed work | 0.0h | 4.3h | 74.4h | 220.4h |
+| Interactive sessions | 0 | 4 | 19 | 1,553 |
+| Worker sessions | 0 | 0 | 190 | 537 |
 
 _Screen time from macos-pmset-display-assertions; collection status: unavailable._
 
@@ -79,5 +79,5 @@ _Model savings are modest because ~90.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-23 14:29 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-24 13:39 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
