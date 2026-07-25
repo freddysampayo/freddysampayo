@@ -15,12 +15,12 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | unavailable | unavailable | unavailable | unavailable |
 | Interactive human attention | 0.0h | 1.8h | 19.6h | 89.1h |
-| Interactive AI generation | 0.0h | 2.5h | 29.6h | 88.0h |
+| Interactive AI generation | 0.0h | 1.6h | 29.6h | 88.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
-| Worker/headless AI generation | 0.0h | 0.0h | 25.2h | 43.3h |
-| Additive observed work | 0.0h | 4.3h | 74.4h | 220.4h |
-| Interactive sessions | 0 | 4 | 19 | 1,553 |
-| Worker sessions | 2 | 2 | 192 | 539 |
+| Worker/headless AI generation | 0.0h | 0.0h | 24.9h | 43.3h |
+| Additive observed work | 0.0h | 3.4h | 74.1h | 220.4h |
+| Interactive sessions | 0 | 3 | 19 | 1,553 |
+| Worker sessions | 2 | 2 | 182 | 539 |
 
 _Screen time from macos-pmset-display-assertions; collection status: unavailable._
 
@@ -80,5 +80,5 @@ _Model savings are modest because ~90.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-24 20:24 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-25 12:56 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
